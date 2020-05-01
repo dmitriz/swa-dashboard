@@ -21,6 +21,12 @@
     "date-format": "0.0.2",
     "osmosis": "^1.0.2",
     "pretty-ms": "^2.1.0",
-    "twilio": "^2.9.2"
-  }
+    "twilio": "^2.9.2",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
