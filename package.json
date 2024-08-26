@@ -15,7 +15,7 @@
   "dependencies": {
     "airports": "^1.0.0",
     "blessed": "^0.1.81",
-    "blessed-contrib": "^3.5.5",
+    "blessed-contrib": "^4.11.0",
     "chalk": "^1.1.3",
     "chalk-rainbow": "^1.0.0",
     "date-format": "0.0.2",
